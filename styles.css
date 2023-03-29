@@ -1,0 +1,20 @@
+.top {
+
+}
+
+.header {
+    background-color: blue;
+    height: auto;
+    border: solid black;
+
+}
+
+.header-links-container {
+
+}
+
+.header-one-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8
+}
