@@ -25,29 +25,48 @@
     font-size: 18px;
 }
 
-.header-one-title {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #F9FAF8;
-}
-
-.header-image {
-    align-self: flex-end;
-    border: solid black;
-    width: 400px;
-    color: #e5e7eb;
-    background-color: rgb(110, 110, 110);
-}
-
 .sign-up-section-container {
     border: solid black;
     margin-left: 100px;
     margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text-container {
+}
+
+.header-image {
+    
+    border: solid black;
+    width: 300px;
+    height: 100px;
+    color: #e5e7eb;
+    background-color: rgb(110, 110, 110);
+    margin-left: .5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-one-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 5%;
+    margin-bottom: 0;
+    margin-left: 0;
 }
 
 .header-text {
     color: #e5e7eb;
     font-size: 18px;
+    margin: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    max-width: 400px;
 }
 
 .sign-up-button-top {
@@ -57,9 +76,25 @@
     flex-shrink: 0;
     width: 50px;
     color: #e5e7eb;
+    margin: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
 }
 
 .middle-one {
+
+}
+
+.header-two-title {
+
+}
+
+.cards-container {
+
+}
+
+.card-text-container {
 
 }
 
@@ -67,6 +102,7 @@
     display: flex;
     justify-content: center;
     background: #E5E7EB;
+
 }
 
 .quote-text {
@@ -75,6 +111,8 @@
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+    padding: 10%;
+    padding-bottom: 0;
 }
 
 .quote-author {
@@ -82,6 +120,9 @@
     justify-content: end;
     border: solid black;
     font-weight: bolder;
+    padding: 10%;
+    padding-top: 0;
+    margin-bottom: 10%;
 }
 
 .quote-text, .quote-author {
@@ -91,7 +132,7 @@
 }
 
 .bottom {
-    background-color: #3882F6;
+
 }
 
 .call-to-action-box {
@@ -99,29 +140,47 @@
     justify-content: space-between;
     align-items: center;
     border: solid black;
-    margin-left: 100px;
-    margin-right: 100px;
+    background-color: #3882F6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .call-to-action-text-container {
-    margin-left: 100px;
-    margin-right: 100px;
+    padding: 3%;
 }
 
 .call-to-action-header {
     border: solid black;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 .call-to-action-text {
     border: solid black;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #E5E7EB;
 }
 
 .sign-up-button-bottom {
     background-color: #3882F6;
     border: solid black;
-    margin-left: 50px;
-    margin-right: 50px;
     padding: 3px;
     flex-shrink: 0;
     color: #e5e7eb;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    padding: .5%;
 }
